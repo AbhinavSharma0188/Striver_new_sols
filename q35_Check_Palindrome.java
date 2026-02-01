@@ -1,4 +1,4 @@
-public class q35 {
+public class q35_Check_Palindrome {
     public static void main(String[] args) {
         int n=121;
         int original=n;
