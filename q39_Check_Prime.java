@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Check_Prime {
+public class q39_Check_Prime {
 
 	public static void main(String[] args) {
 	
