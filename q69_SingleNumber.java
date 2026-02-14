@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class q70_SingleNumber {
+public class q69_SingleNumber {
     public static void main(String[] args) {
         HashMap<Integer,Integer> map = new HashMap<>();
         int arr[] = {2,2,1};

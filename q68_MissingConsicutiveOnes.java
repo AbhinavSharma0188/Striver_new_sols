@@ -1,4 +1,4 @@
-public class q69_MissingConsicutiveOnes {
+public class q68_MissingConsicutiveOnes {
     public static void main(String[] args) {
         int arr[]={1,1,0,1,1,1};
         int cons=0;
