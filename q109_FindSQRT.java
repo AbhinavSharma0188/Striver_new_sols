@@ -17,7 +17,7 @@ public class q109_FindSQRT {
 
             }
             else{
-             si=mid-1;
+             ei=mid-1;
             }
             
         }
