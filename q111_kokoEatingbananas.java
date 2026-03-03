@@ -29,7 +29,7 @@
 //             hour += (pile + speed - 1) / speed;  // better than Math.ceil
 //         }
 
-//         return hour <= h;
+//         return hour <= h
 
 //     }
 // }
