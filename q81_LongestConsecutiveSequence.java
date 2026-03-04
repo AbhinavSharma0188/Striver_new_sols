@@ -11,7 +11,7 @@ public class q81_LongestConsecutiveSequence {
     }
     public static int longest(int arr[]){
          HashSet<Integer> set=new HashSet<>();
-        for(int num:arr) set.add(num);
+        for(int num:arr) set.add(num);;
 
         int longest=0;
 
