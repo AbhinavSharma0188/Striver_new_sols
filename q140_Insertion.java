@@ -1,4 +1,4 @@
-public class LinkedList {
+public class q140_Insertion {
 
     class Node {
         int data;
@@ -83,7 +83,7 @@ public class LinkedList {
 
     public static void main(String[] args) {
 
-        LinkedList list = new LinkedList();
+        q140_Insertion list = new q140_Insertion();
 
         list.addFirst(10);
         list.addFirst(5);
