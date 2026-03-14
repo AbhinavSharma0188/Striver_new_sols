@@ -1,5 +1,4 @@
-public class q142_FIndLength {
- 
+public class q143_FindLength {
 
     class Node {
         int data;
@@ -13,20 +12,7 @@ public class q142_FIndLength {
 
     Node head;
 
-    // Function to find length
-    public int findLength() {
-        int count = 0;
-        Node temp = head;
-
-        while (temp != null) {
-            count++;
-            temp = temp.next;
-        }
-
-        return count;
-    }
-
-    // Function to insert at end
+    // Insert at end
     public void addLast(int val) {
         Node newNode = new Node(val);
 
@@ -44,6 +30,20 @@ public class q142_FIndLength {
         temp.next = newNode;
     }
 
+    // Search element in Linked List
+    public boolean search(int key) {
+        Node temp = head;
+
+        while (temp != null) {
+            if (temp.data == key) {
+                return true;
+            }
+            temp = temp.next;
+        }
+
+        return false;
+    }
+
     public static void main(String[] args) {
         q143_FindLength list = new q143_FindLength();
 
@@ -52,8 +52,10 @@ public class q142_FIndLength {
         list.addLast(30);
         list.addLast(40);
 
-        System.out.println("Length of Linked List: " + list.findLength());
+        if (list.search(30)) {
+            System.out.println("Element Found");
+        } else {
+            System.out.println("Element Not Found");
+        }
     }
 }
-    
-
