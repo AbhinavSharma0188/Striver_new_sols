@@ -1,4 +1,4 @@
-public class q143_FindLength {
+public class q143_Search {
 
     class Node {
         int data;
@@ -45,7 +45,7 @@ public class q143_FindLength {
     }
 
     public static void main(String[] args) {
-        q143_FindLength list = new q143_FindLength();
+        q143_Search list = new q143_Search();
 
         list.addLast(10);
         list.addLast(20);
