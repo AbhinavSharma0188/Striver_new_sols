@@ -1,4 +1,4 @@
-public class Linked_List {
+public class  q139_IntroLinkedLIst{
 
     // Node class
     public class Node {
