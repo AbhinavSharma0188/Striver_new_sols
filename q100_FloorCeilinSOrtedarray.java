@@ -12,7 +12,7 @@ public class q100_FloorCeilinSOrtedarray {
         int ei = n - 1;
 
         while (si <= ei) {
-            int mid = si + (ei - si) / 2;
+            int mid = si + (ei - si) / 2;;
 
             if (arr[mid] == x) {
                 floor = arr[mid];
