@@ -8,7 +8,7 @@ public class q103_SearchInArotatedSortedArray {
         while(si<=ei){
             int mid=si+(ei-si)/2;
             if(arr[mid]==target){
-               System.out.println(mid);
+               System.out.println(mid);;
             }
             //left sorted means
             if(arr[si]<=arr[mid]){
