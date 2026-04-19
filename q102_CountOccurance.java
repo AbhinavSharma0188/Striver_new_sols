@@ -4,7 +4,7 @@ public class q102_CountOccurance {
         int si=0, ei=arr.length-1, ans=-1;
 
         while(si<=ei){
-            int mid = si+(ei-si)/2;
+            int mid = si+(ei-si)/2;;
 
             if(arr[mid]==target){
                 ans = mid;
